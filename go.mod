@@ -1,6 +1,6 @@
 module github.com/lima-vm/lima
 
-go 1.20
+go 1.25.0
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
@@ -16,12 +16,12 @@ require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.3
 	github.com/cyphar/filepath-securejoin v0.2.4
 	github.com/digitalocean/go-qemu v0.0.0-20221209210016-f035778c97f7
-	github.com/diskfs/go-diskfs v1.4.0
+	github.com/diskfs/go-diskfs v1.9.4
 	github.com/docker/go-units v0.5.0
 	github.com/elastic/go-libaudit/v2 v2.4.0
 	github.com/foxcpp/go-mockdns v1.0.0
 	github.com/goccy/go-yaml v1.11.2
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/gorilla/mux v1.8.1
 	github.com/lima-vm/go-qcow2reader v0.1.1
 	github.com/lima-vm/sshocker v0.3.4
@@ -35,13 +35,13 @@ require (
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/pbnjay/memory v0.0.0-20210728143218-7b4eea64cf58
 	github.com/sethvargo/go-password v0.2.0
-	github.com/sirupsen/logrus v1.9.3
+	github.com/sirupsen/logrus v1.9.4
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/pflag v1.0.5
 	golang.org/x/exp v0.0.0-20230801115018-d63ba01acd4b
 	golang.org/x/net v0.19.0
 	golang.org/x/sync v0.5.0
-	golang.org/x/sys v0.15.0
+	golang.org/x/sys v0.43.0
 	golang.org/x/text v0.14.0
 	gopkg.in/op/go-logging.v1 v1.0.0-20160211212156-b2cb9fa56473
 	gopkg.in/yaml.v3 v3.0.1
@@ -61,6 +61,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/digitalocean/go-libvirt v0.0.0-20220804181439-8648fbde413e // indirect
 	github.com/dimchansky/utfbom v1.1.1 // indirect
+	github.com/djherbis/times v1.6.0 // indirect
 	github.com/elliotchance/orderedmap v1.5.0 // indirect
 	github.com/emicklei/go-restful/v3 v3.10.1 // indirect
 	github.com/evanphx/json-patch v5.6.0+incompatible // indirect
@@ -77,7 +78,7 @@ require (
 	github.com/google/gnostic-models v0.6.8 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
-	github.com/google/uuid v1.3.0 // indirect
+	github.com/google/uuid v1.6.0 // indirect
 	github.com/imdario/mergo v0.3.13 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/insomniacslk/dhcp v0.0.0-20220504074936-1ca156eafb9f // indirect
@@ -115,7 +116,6 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230711160842-782d3b101e98 // indirect
 	google.golang.org/grpc v1.58.3 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
-	gopkg.in/djherbis/times.v1 v1.3.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
