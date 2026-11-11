@@ -1,6 +1,6 @@
 module github.com/lima-vm/lima
 
-go 1.20
+go 1.25
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
@@ -34,7 +34,7 @@ require (
 	github.com/nxadm/tail v1.4.11
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/pbnjay/memory v0.0.0-20210728143218-7b4eea64cf58
-	github.com/sethvargo/go-password v0.2.0
+	github.com/sethvargo/go-password v0.4.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/pflag v1.0.5
