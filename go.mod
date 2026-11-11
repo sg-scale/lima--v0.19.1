@@ -1,6 +1,6 @@
 module github.com/lima-vm/lima
 
-go 1.20
+go 1.21
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
@@ -21,7 +21,7 @@ require (
 	github.com/elastic/go-libaudit/v2 v2.4.0
 	github.com/foxcpp/go-mockdns v1.0.0
 	github.com/goccy/go-yaml v1.11.2
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/gorilla/mux v1.8.1
 	github.com/lima-vm/go-qcow2reader v0.1.1
 	github.com/lima-vm/sshocker v0.3.4
